@@ -17,7 +17,7 @@
 		(sha256
 		  (base32 "0lyvrvrllq2k7y21n9hh1dn7vj9iv9682hynvs6kn71lcz0aakga"))))
 	(arguments 
-	    '(#:validate-runpath? #f ; skip validation
+	    `(#:validate-runpath? #f ; skip validation
      	      #:tests? #f            ; no tests
        	      #:make-flags
 	      (list (string-append "CC=" ,(cc-for-target))
