@@ -1,5 +1,6 @@
 (define-module (engstrand packages engstrand-st)
     #:use-module (gnu packages suckless)
+    #:use-module (gnu packages gtk)
     #:use-module (guix git-download)
     #:use-module (guix packages)
     #:use-module (engstrand packages))
