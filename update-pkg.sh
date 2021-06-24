@@ -5,6 +5,10 @@ PACKAGES_ROOT="$REPOS_ROOT/guix-channel/engstrand/packages"
 
 for repo in dwm dmenu st
 do
+    # Make sure to delete all non-tracked file to not get a hash mismatch
+    cd $REPOS_ROOT/$repo 
+    git clean -fd
+
     git_hash=$(git -C $REPOS_ROOT/$repo log -n 1 --format=format:"%H")
     guix_hash=$(guix hash --hash=sha256 --format=nix-base32 -rx $REPOS_ROOT/$repo)
     echo $repo $git_hash $guix_hash
