@@ -1,7 +1,7 @@
 (define-module (engstrand packages engstrand-dwm)
   #:use-module (gnu packages suckless)
   #:use-module (guix git-download)
-  #:use-module (guix packages))
+  #:use-module (guix packages)
   #:use-module (engstrand packages))
 
 (define-public engstrand-dwm
