@@ -3,7 +3,7 @@
 REPOS_ROOT="$HOME/repos"
 PACKAGES_ROOT="engstrand/packages"
 
-for repo in dwm dmenu st
+for repo in engstrand-dwm engstrand-dmenu engstrand-st
 do
     git_hash=$(git -C $REPOS_ROOT/$repo log -n 1 --format=format:"%H")
     guix_hash=$(guix hash --hash=sha256 --format=nix-base32 -rx $REPOS_ROOT/$repo)
