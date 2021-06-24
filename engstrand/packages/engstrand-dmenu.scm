@@ -16,6 +16,7 @@
 		    (commit "d316edfcb23d1b344416c16b608a340dad001d2d")))
 		(sha256
 		  (base32 "1xla26v13g9j60wdc0ncg2bnr83cpsi1yxvfny2zpnlynas8d4fs"))))
+	(arguments '(#:validate-runpath? #f))
 	(home-page "https://github.com/engstrand-config/dmenu")
 	(synopsis "Engstrand dmenu")))
 
