@@ -1,7 +1,7 @@
 #!/bin/sh
 
-REPOS_ROOT="$HOME/repos"
-PACKAGES_ROOT="engstrand/packages"
+REPOS_ROOT="$HOME/engstrand-config"
+PACKAGES_ROOT="$REPOS_ROOT/guix-channel/engstrand/packages"
 
 for repo in dwm dmenu st
 do
