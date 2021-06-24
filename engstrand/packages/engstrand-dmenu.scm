@@ -16,7 +16,17 @@
 		    (commit "eeb3448e0a76d55b75882bd633adf2b6a4ac2412")))
 		(sha256
 		  (base32 "0lyvrvrllq2k7y21n9hh1dn7vj9iv9682hynvs6kn71lcz0aakga"))))
-	(arguments '(#:validate-runpath? #f))
+	(arguments 
+	    '(#:validate-runpath? #f ; skip validation
+     	      #:tests? #f            ; no tests
+       	      #:make-flags
+	      (list (string-append "CC=" ,(cc-for-target))
+		(string-append "PREFIX=" %output)
+		(string-append "FREETYPEINC="
+		    (assoc-ref %build-inputs "freetype")
+                        "/include/freetype2"))
+	      #:phases
+	      (modify-phases %standard-phases (delete 'configure))))
 	(home-page "https://github.com/engstrand-config/dmenu")
 	(synopsis "Engstrand dmenu")))
 
