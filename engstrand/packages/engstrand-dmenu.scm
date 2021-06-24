@@ -13,9 +13,9 @@
 		(method git-fetch)
 		(uri (git-reference
 		    (url "https://github.com/engstrand-config/dmenu.git")
-		    (commit "d316edfcb23d1b344416c16b608a340dad001d2d")))
+		    (commit "eeb3448e0a76d55b75882bd633adf2b6a4ac2412")))
 		(sha256
-		  (base32 "1xla26v13g9j60wdc0ncg2bnr83cpsi1yxvfny2zpnlynas8d4fs"))))
+		  (base32 "0lyvrvrllq2k7y21n9hh1dn7vj9iv9682hynvs6kn71lcz0aakga"))))
 	(arguments '(#:validate-runpath? #f))
 	(home-page "https://github.com/engstrand-config/dmenu")
 	(synopsis "Engstrand dmenu")))
