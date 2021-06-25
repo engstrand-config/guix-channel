@@ -36,9 +36,9 @@
         (method git-fetch)
         (uri (git-reference
           (url "https://github.com/engstrand-config/dsblocks.git")
-          (commit "c94507553586ed6f542804d32c4e801c386c529f")))
+          (commit "404d436455f8ab1de058d7c94363556dbdada0d6")))
 	(sha256
-	  (base32 "06yaf1jbbvmj5qkg6h9a75fyvxvavk5nry3ri38a8f3m9vvxbdq2"))))
+	  (base32 "1kb9an9bmfg9vms4jkz8z400ydrs72plz6rqaakrrfh3in6msjyc"))))
       (arguments
 	`(#:tests? #f                      ; no tests
 	  #:make-flags
