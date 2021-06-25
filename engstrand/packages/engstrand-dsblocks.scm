@@ -20,6 +20,7 @@
     #:use-module (gnu packages libbsd)
     #:use-module (gnu packages linux)
     #:use-module (gnu packages mpd)
+    #:use-module (gnu packages glib)
     #:use-module (gnu packages ncurses)
     #:use-module (gnu packages pkg-config)
     #:use-module (gnu packages webkit)
