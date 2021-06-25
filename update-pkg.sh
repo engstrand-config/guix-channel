@@ -3,7 +3,7 @@
 REPOS_ROOT="$HOME/engstrand-config"
 PACKAGES_ROOT="$REPOS_ROOT/guix-channel/engstrand/packages"
 
-for repo in dwm dmenu st
+for repo in dwm dmenu st dsblocks
 do
     # Make sure to delete all non-tracked file to not get a hash mismatch
     cd $REPOS_ROOT/$repo 
