@@ -42,19 +42,22 @@
       (arguments
 	`(#:tests? #f                      ; no tests
 	  #:make-flags
-	  (list (string-append "CC=" ,(cc-for-target))
-	     (string-append "PREFIX=" %output)
-             (string-append "FREETYPEINC="
+          (list (string-append "CC=" ,(cc-for-target))
+               (string-append "PREFIX=" %output)
+               (string-append "FREETYPEINC="
                             (assoc-ref %build-inputs "freetype")
                             "/include/freetype2"))
 	  #:phases
 	  (modify-phases %standard-phases (delete 'configure))))
+    (native-inputs
+     `(("pkg-config" ,pkg-config)))
     (inputs
-	`(("x11" ,libx11)
+	`(("libx11" ,libx11)
 	  ("libxft" ,libxft)
        	  ("libxinerama" ,libxinerama)
+       	  ("freetype" ,freetype)
 	  ("libmpdclient" ,libmpdclient)
-	  ("gio" ,glib)))
+	  ("glib" ,glib)))
     (home-page "https://github.com/engstrand-config/dsblocks")
     (description "Custom statusbar for dwm with blocks written in C. Based on dwmblocks")
     (synopsis "Engstrand dsblocks")))
