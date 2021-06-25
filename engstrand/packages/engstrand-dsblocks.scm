@@ -54,7 +54,7 @@
 	  ("libxft" ,libxft)
        	  ("libxinerama" ,libxinerama)
 	  ("libmpdclient" ,libmpdclient)
-	  ("gio-2.0" ,glib)))
+	  ("gio" ,glib)))
     (home-page "https://github.com/engstrand-config/dsblocks")
     (description "Custom statusbar for dwm with blocks written in C. Based on dwmblocks")
     (synopsis "Engstrand dsblocks")))
