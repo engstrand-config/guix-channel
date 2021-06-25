@@ -56,4 +56,4 @@
 	  ("gio-2.0" ,glib)))
     (home-page "https://github.com/engstrand-config/dsblocks")
     (description "Custom statusbar for dwm with blocks written in C. Based on dwmblocks")
-    (synopsis "Engstrand dsblocks"))
+    (synopsis "Engstrand dsblocks")))
