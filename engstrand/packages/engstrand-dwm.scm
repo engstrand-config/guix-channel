@@ -15,7 +15,7 @@
           (url "https://github.com/engstrand-config/dwm.git")
           (commit "125e6363ce0680be588807b0b0a3d4c83bfe4d95")))
 	(sha256
-	  (base32 "1zyia4m1ld454fhxdcyadvax34i2rm5881h4k39r6bikd4l1x3bx"))))
+	  (base32 "0axjsx2ci1c1ww04g5hjzd5mnzb0ncbm9x5dvndrmq5fkv51fxsz"))))
     (home-page "https://github.com/engstrand-config/dwm")
     (synopsis "Engstrand dwm")))
 
