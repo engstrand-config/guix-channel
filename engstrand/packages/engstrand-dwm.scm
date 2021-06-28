@@ -13,9 +13,9 @@
         (method git-fetch)
         (uri (git-reference
           (url "https://github.com/engstrand-config/dwm.git")
-          (commit "5f8207102e9039856499636d815b1bea7c7b83d6")))
+          (commit "125e6363ce0680be588807b0b0a3d4c83bfe4d95")))
 	(sha256
-	  (base32 "0ph40alzkczbbs5wlkv4ph251kf96whmzah8d0hz0whndl99p292"))))
+	  (base32 "19a8vga7fffm3vjqxnr97il62m3515hh23dl9z8dmnapaifvkrb4"))))
     (home-page "https://github.com/engstrand-config/dwm")
     (synopsis "Engstrand dwm")))
 
