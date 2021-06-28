@@ -35,9 +35,9 @@
 		(method git-fetch)
 		(uri (git-reference
 		    (url "https://github.com/engstrand-config/st.git")
-		    (commit "")))
+		    (commit "ff7964bbf74e249d7c2f2325fc2fcc103fc8db3b")))
 		(sha256
-		    (base32 ""))))
+		    (base32 "127wxailsfqjlycjad7jaxx1ib4655k3w6c03fc7q3q8y9fd7j4x"))))
 	(home-page "https://github.com/engstrand-config/st")
     	(inputs
      	    `(("libx11" ,libx11)
