@@ -20,5 +20,4 @@
       "Native app used alongside the Pywalfox browser extension")
     (description
       "Native app used alongside the Pywalfox browser extension")
-    ;(license #f)
-    ))
+    (license mpl2.0)))
