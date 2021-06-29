@@ -1,5 +1,8 @@
 (define-module (engstrand packages python-pywalfox)
                #:use-module (guix packages)
+               #:use-module (guix download)
+               #:use-module (guix build-system python)
+               #:use-module (guix licenses)
                #:use-module (engstrand packages))
 
 (define-public python-pywalfox
@@ -20,4 +23,4 @@
       "Native app used alongside the Pywalfox browser extension")
     (description
       "Native app used alongside the Pywalfox browser extension")
-    (license mpl2.0)))
+    (license #f)))
