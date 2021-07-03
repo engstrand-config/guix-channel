@@ -31,4 +31,3 @@
         (propagated-inputs
              `(("engstrand-dwm", engstrand-dwm)))
 	(synopsis "Engstrand st")))
-

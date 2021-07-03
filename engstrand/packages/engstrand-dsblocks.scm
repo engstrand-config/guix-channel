@@ -25,7 +25,7 @@
 	`(("libx11" ,libx11)
 	  ("libxft" ,libxft)
        	  ("libxinerama" ,libxinerama)
-       	  ("freetype" ,freetype)
+       	  ("freetype" ,freetype)))
     (propagated-inputs
          `(("mpd", mpd)
            ("glib", glib)

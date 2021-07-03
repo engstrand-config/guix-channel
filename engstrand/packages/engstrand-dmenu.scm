@@ -33,4 +33,3 @@
              `(("engstrand-dwm", engstrand-dwm)))
 	(home-page "https://github.com/engstrand-config/dmenu")
 	(synopsis "Engstrand dmenu")))
-

@@ -31,4 +31,3 @@
            ("xwallpaper", xwallpaper)))
     (home-page "https://github.com/engstrand-config/dwm")
     (synopsis "Engstrand dwm")))
-
