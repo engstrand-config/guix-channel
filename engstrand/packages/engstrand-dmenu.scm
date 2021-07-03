@@ -3,8 +3,7 @@
     #:use-module (guix git-download)
     #:use-module (gnu packages suckless)
     #:use-module (gnu packages xorg)
-    #:use-module (engstrand packages)
-    #:use-module (engstrand packages engstrand-dwm))
+    #:use-module (engstrand packages))
 
 (define-public engstrand-dmenu
     (package

@@ -6,8 +6,7 @@
     #:use-module (gnu packages mpd)
     #:use-module (gnu packages xorg)
     #:use-module (gnu packages glib)
-    #:use-module (engstrand packages)
-    #:use-module (engstrand packages engstrand-dwm))
+    #:use-module (engstrand packages))
 
 (define-public engstrand-dsblocks
  (package
