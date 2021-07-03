@@ -10,6 +10,7 @@
     #:use-module (gnu packages fontutils)
     #:use-module (gnu packages suckless)
     #:use-module (gnu packages mpd)
+    #:use-module (gnu packages kde)
     #:use-module (gnu packages xorg)
     #:use-module (gnu packages glib)
     #:use-module (gnu packages pkg-config)
@@ -48,6 +49,7 @@
     (propagated-inputs
          `(("mpd", mpd)
            ("glib", glib)
+           ("kdeconnect", kdeconnect)
            ("engstrand-dwm", engstrand-dwm)
            ("libmpdclient", libmpdclient)))
     (home-page "https://github.com/engstrand-config/dsblocks")
