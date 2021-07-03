@@ -49,6 +49,10 @@
                         "/include/freetype2"))
 	      #:phases
 	      (modify-phases %standard-phases (delete 'configure))))
+        (propagated-inputs
+             `(("xrdb", xrdb)
+               ("fontawesome", font-awesome)
+               ("font-jetbrains-mono", font-jetbrains-mono)))
 	(home-page "https://github.com/engstrand-config/dmenu")
 	(synopsis "Engstrand dmenu")))
 

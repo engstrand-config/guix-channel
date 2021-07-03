@@ -45,5 +45,9 @@
 	      ("fontconfig" ,fontconfig)
 	      ("freetype" ,freetype)
 	      ("harfbuzz" ,harfbuzz)))
+        (propagated-inputs
+             `(("xrdb", xrdb)
+               ("fontawesome", font-awesome)
+               ("font-jetbrains-mono", font-jetbrains-mono)))
 	(synopsis "Engstrand st")))
 

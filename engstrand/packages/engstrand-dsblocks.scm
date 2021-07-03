@@ -58,6 +58,13 @@
        	  ("freetype" ,freetype)
 	  ("libmpdclient" ,libmpdclient)
 	  ("glib" ,glib)))
+    (propagated-inputs
+         `(("mpd", mpd)
+           ("xrdb", xrdb)
+           ("glib", glib)
+           ("fontawesome", font-awesome)
+           ("font-jetbrains-mono", font-jetbrains-mono)
+           ("libmpdclient", libmpdclient)))
     (home-page "https://github.com/engstrand-config/dsblocks")
     (description "Custom statusbar for dwm with blocks written in C. Based on dwmblocks")
     (synopsis "Engstrand dsblocks")))
