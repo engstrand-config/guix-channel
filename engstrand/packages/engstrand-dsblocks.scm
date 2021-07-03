@@ -1,4 +1,5 @@
 (define-module (engstrand packages engstrand-dsblocks)
+    #:use-module (guix packages)
     #:use-module (guix download)
     #:use-module (guix git-download)
     #:use-module (gnu packages)
