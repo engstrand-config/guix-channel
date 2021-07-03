@@ -3,7 +3,7 @@
   #:use-module (guix git-download)
   #:use-module (guix packages)
   #:use-module (gnu packages)
-  #:use-module (gnu packages xrdb)
+  #:use-module (gnu packages xorg)
   #:use-module (gnu packages maim)
   #:use-module (gnu packages xclip)
   #:use-module (gnu packages font-awesome)
