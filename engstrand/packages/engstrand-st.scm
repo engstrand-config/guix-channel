@@ -2,12 +2,11 @@
     #:use-module (guix download)
     #:use-module (guix git-download)
     #:use-module (gnu packages)
+    #:use-module (gnu packages gtk)
     #:use-module (gnu packages suckless)
     #:use-module (gnu packages fonts)
     #:use-module (gnu packages fontutils)
     #:use-module (gnu packages xorg)
-    #:use-module (gnu packages freetype)
-    #:use-module (gnu packages harfbuzz)
     #:use-module (engstrand packages)
     #:use-module (engstrand packages engstrand-dwm))
 

@@ -5,7 +5,6 @@
     #:use-module (gnu packages)
     #:use-module (gnu packages suckless)
     #:use-module (gnu packages mpd)
-    #:use-module (gnu packages libmpdclient)
     #:use-module (gnu packages xorg)
     #:use-module (gnu packages glib)
     #:use-module (engstrand packages engstrand-dwm)
