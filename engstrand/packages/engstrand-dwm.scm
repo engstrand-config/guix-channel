@@ -2,6 +2,14 @@
   #:use-module (gnu packages suckless)
   #:use-module (guix git-download)
   #:use-module (guix packages)
+  #:use-module (gnu packages)
+  #:use-module (gnu packages xrdb)
+  #:use-module (gnu packages maim)
+  #:use-module (gnu packages xclip)
+  #:use-module (gnu packages font-awesome)
+  #:use-module (gnu packages font-jetbrains-mono)
+  #:use-module (gnu packages picom)
+  #:use-module (gnu packages xwallpaper)
   #:use-module (engstrand packages))
 
 (define-public engstrand-dwm
