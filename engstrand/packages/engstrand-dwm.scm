@@ -25,6 +25,7 @@
          `(("xrdb", xrdb)
            ("maim", maim)
            ("xclip", xclip)
+           ("xprop", xprop)
            ("fontawesome", font-awesome)
            ("font-jetbrains-mono", font-jetbrains-mono)
            ("picom", picom)
