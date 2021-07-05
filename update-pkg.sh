@@ -3,10 +3,10 @@
 REPOS_ROOT="$HOME/engstrand-config"
 PACKAGES_ROOT="$REPOS_ROOT/guix-channel/engstrand/packages"
 
-for repo in dwm dmenu st dsblocks
+for repo in dwm dmenu st dsblocks utils
 do
     # Make sure to delete all non-tracked file to not get a hash mismatch
-    cd $REPOS_ROOT/$repo 
+    cd $REPOS_ROOT/$repo
     git clean -fd
 
     git_hash=$(git -C $REPOS_ROOT/$repo log -n 1 --format=format:"%H")
