@@ -3,7 +3,8 @@
     #:use-module (guix packages)
     #:use-module (guix download)
     #:use-module (guix git-download)
-    #:use-module (guix build-system gnu)
+    #:use-module (guix build-system copy)
+    #:use-module ((guix licenses) #:prefix license:)
     #:use-module (gnu packages xorg)
     #:use-module (gnu packages xdisorg)
     #:use-module (engstrand packages))
@@ -11,6 +12,8 @@
 (define-public engstrand-utils
     (package
 	(name "engstrand-utils")
+        (version "1.0.0")
+        (description "Engstrand utilities and scripts")
 	(source
 	    (origin
 		(method git-fetch)
@@ -19,6 +22,7 @@
 		    (commit "78f90961e12be38f0a58e2fe6076a130ca24d040")))
 		(sha256
 		  (base32 "07m9rvsny24akyi8gpc6r26cdm4qscqbky5zg07xyk9z5l3808rh"))))
+        (build-system copy-build-system)
         (propagated-inputs
                 `(("xcape", xcape)
                   ("xmodmap", xmodmap)
@@ -30,4 +34,5 @@
                   ("xwallpaper", xwallpaper)
                   ("xrdb", xrdb)))
 	(home-page "https://github.com/engstrand-config/utils")
-	(synopsis "Scripts and utilities for our GNU Guix installation")))
+	(synopsis "Engstrand utilities and scripts")
+        (license license:gpl3)))
