@@ -19,9 +19,9 @@
 		(method git-fetch)
 		(uri (git-reference
 		    (url "https://github.com/engstrand-config/utils.git")
-		    (commit "78f90961e12be38f0a58e2fe6076a130ca24d040")))
+		    (commit "86af1ac37eae5ba7d26981afd7c0b31ed1c1875a")))
 		(sha256
-		  (base32 "07m9rvsny24akyi8gpc6r26cdm4qscqbky5zg07xyk9z5l3808rh"))))
+		  (base32 "1zsc3r40v12hpfdpxsz6ckcj4hz4rsmy9yc931kd4i3pl5zb2frs"))))
         (build-system copy-build-system)
         (propagated-inputs
                 `(("xcape", xcape)
