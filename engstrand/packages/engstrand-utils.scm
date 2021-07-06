@@ -25,7 +25,7 @@
         (build-system copy-build-system)
         (propagated-inputs
                 `(("xcape", xcape)
-                  ("xmodmap", xmodmap)
+                  ("setxkbmap", setxkbmap)
                   ("xprop", xprop)
                   ("xset", xset)
                   ("xclip", xclip)

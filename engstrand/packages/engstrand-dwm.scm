@@ -26,6 +26,7 @@
            ("maim", maim)
            ("xclip", xclip)
            ("xprop", xprop)
+           ("xsetroot", xsetroot)
            ("fontawesome", font-awesome)
            ("font-jetbrains-mono", font-jetbrains-mono)
            ("picom", picom)
