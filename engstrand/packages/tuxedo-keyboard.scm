@@ -1,6 +1,5 @@
 (define-module (engstrand packages tuxedo-keyboard-module)
     #:use-module (gnu packages tls)
-    #:use-module (nongnu packages linux) ; include kernel
     #:use-module (guix gexp)
     #:use-module (guix utils)
     #:use-module (guix packages)
