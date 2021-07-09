@@ -1,5 +1,7 @@
 (define-module (engstrand packages tuxedo-keyboard-module)
     #:use-module (gnu packages tls)
+    #:use-module (nongnu packages)
+    #:use-module (nongnu packages linux)
     #:use-module (guix gexp)
     #:use-module (guix utils)
     #:use-module (guix packages)
@@ -10,7 +12,7 @@
     #:use-module ((guix licenses) #:prefix license:))
 
 ; https://notabug.org/jlicht/guix-pkgs/src/master/staging/linux-nonfree.scm
-(define-public (tuxedo-keyboard-module kernel)
+(define-public tuxedo-keyboard-module
   (package
     (name "tuxedo-keyboard-module")
     (version "3.0.8")
@@ -27,7 +29,7 @@
     (build-system linux-module-build-system)
     (arguments
      `(#:tests? #f
-       #:linux ,kernel))
+       #:linux ,linux))
     (home-page "https://github.com/tuxedocomputers/tuxedo-keyboard")
     (synopsis "Tuxedo computers kernel module for keyboard
 backlighting")
