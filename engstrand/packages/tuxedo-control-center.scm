@@ -21,6 +21,13 @@
                             (base32
                                 "00gpsvjbli9f6vj31lbs7flmcz215r91iz6rg1kbzklc3y5k2ifj"))))
         (build-system node-build-system)
+        (arguments
+            '(#:phases
+                (modify-phases %standard-phases
+                    (replace 'configure
+                        (lambda* (#:key inputs #:allow-other-keys)
+                            (let ((npm (string-append (assoc-ref inputs "node") "/bin/npm")))
+                                (invoke npm "install")))))))
         (home-page "https://github.com/tuxedocomputers/tuxedo-control-center")
         (synopsis "A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops")
         (description "The TUXEDO Control Center (short: TCC) gives TUXEDO laptop users full control over their hardware like CPU cores, fan speed and more")
