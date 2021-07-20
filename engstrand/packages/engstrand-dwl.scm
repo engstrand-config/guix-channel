@@ -10,10 +10,7 @@
                  (name "engstrand-dwl")
                  (source
                    (origin
-                     (inherit (package-source dwl))
-                     (patches
-                       (list
-                         "patches/attachabove.patch"))))
+                     (inherit (package-source dwl))))
                  (arguments
                    `(#:tests? #f                      ; no tests
                      #:make-flags
